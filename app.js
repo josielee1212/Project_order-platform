@@ -22,6 +22,14 @@ app.get('/restaurant/:id', (req, res) => {
   res.send(`read restaurant: ${id}`)
 })
 
+app.get('/map', (req, res) => {
+  res.send(`地圖模式(TBC)`)
+})
+
+app.get('/user-login', (req, res) => {
+  res.send(`會員登入/註冊頁面(TBC)`)
+})
+
 app.get('/restaurant/:id/cart', (req, res) => {
   const id = req.params.id
   res.send(`open cart in restaurant: ${id}`)
