@@ -1,1 +1,101 @@
-<h1>Example App: Home</h1>
+<header>
+  <!-- navigation -->
+  <nav class="navbar navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="/">
+        <img src="https://assets-lighthouse.s3.amazonaws.com/uploads/image/file/6227/restaurant-list-logo.png"
+          width="30" height="30" class="d-inline-block align-top" alt="九圓水餃集團">
+        九圓水餃集團
+      </a>
+    </div>
+  </nav>
+
+  <div class="banner"></div>
+</header>
+
+<!-- search bar -->
+<div class="container search-bar">
+  <div class="search-bar-outer">
+    <div class="search-bar-inner">
+      <form action="/restaurants">
+        <h4 class="mb-2">尋找分店：</h4>
+        <div class="input-group">
+          <input type="text" name="kw" class="form-control" placeholder="輸入分店名稱或地址比對" aria-label="Restaurant Name..."
+            value="{{keyword}}" aria-describedby="search-button">
+          <div class="input-group-append">
+            <button class="btn btn-major" type="submit" id="search-button"><i class="fas fa-search"></i></button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- restaurant list -->
+<div class="container mt-5">
+  <div class="row ">
+     <div class="col col-12 ">
+       <div class="row d-flex flex-row bd-highlight mb-3 justify-content-around">
+        {{#each restaurants as |restaurant|}}
+          <div class="card col-3 m-3 p-2">
+            <h5 class="card-title text-center text-danger fw-bold">{{restaurant.name}}</h5>
+              <div class="card-body">              
+                <div class="restaurant-location mb-1">
+                  <p class="card-text text-center">
+                    地址: {{restaurant.location}} <i class="fa-solid fa-location-dot"></i> <br>
+                    營業時間: {{opening-hours}}<br>
+                    <span class="text-success  bg-light fw-bold">
+                    預估等待時間: {{waiting-time}}
+                    </span>
+                    </p>
+                    </div>
+                  <div class="restaurant-cta text-center d-flex flex-row justify-content-around align-items-center">
+                    <span class="badge rounded-pill fw-light fs-6">
+                      <a href="tel:+886-{{restaurant.phone}}" class="btn btn-primary">
+                        <i class="fa-solid fa-phone"> </i> {{restaurant.phone}}
+                      </a>
+                    </span>
+                     <span class="badge rounded-pill font-weight-normal"></span>
+                      <a href="/restaurant/{{restaurant.id}}" class="btn btn-danger fs-6">
+                        <i class="fa-solid fa-cart-shopping"></i> 前往訂餐
+                      </a>
+                    </span>
+                 </div>
+                </div>
+              </div>
+        {{/each}}
+       </div>
+     </div>
+  </div>
+</div>
+
+{{!-- <div class="container mt-5">
+  <div class="row">
+    <div class="col-md-10 col-12 mx-auto">
+      <div class="row row-cols-sm-3">
+        {{#each restaurants as |restaurant|}}
+
+        <a href="/restaurant/{{restaurant.id}}" class="text-secondary">
+          <div class="card mb-3">
+           <h5 class="card-title mb-1">{{restaurant.name}}</h5>
+            <div class="card-body p-3">
+              
+
+              <div class="restaurant-location mb-1">
+                <i class="fa-solid fa-location-dot"></i> {{restaurant.location}}
+                <p>營業時間:{{opening-hours}}</p>
+              </div>
+
+              <span class="badge rounded-pill bg-danger font-weight-normal">
+                <i class="fa-solid fa-phone"></i>
+                {{restaurant.phone}}
+              </span>
+
+            </div>
+          </div>
+        </a>
+        {{/each}}
+      </div>
+    </div>
+  </div>
+</div> --}}

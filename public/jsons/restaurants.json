@@ -4,7 +4,8 @@
       "id": 1,
       "name": "九圓水餃 板橋仁化店",
       "location": "新北市板橋區仁化街32號",
-      "phone": "0282595007",
+      "phone": "02-82595007",
+      "opening-hours": "11:00-21:00",
       "waiting-time": "<20 min",
       "menu": [
          { "id":"product-1", "name":"招牌鍋貼*10","category": "鍋貼","price": 50 ,"image":"https://www.8way.com.tw/8WayApi/document/aba97afe-d70f-4613-ab90-f6e123742a1d.png","description":"將特選豬後腿肉的嚼勁揉進高麗菜的香甜口感，包入新鮮製作的餃皮再煎至金黃酥脆，成就八方雲集自豪的招牌鍋貼。" },
@@ -21,7 +22,8 @@
       "id": 2,
       "name": "九圓水餃 萬華環南店",
       "location": "台北市萬華區環河南路二段202號",
-      "phone": "0223085335",
+      "phone": "02-23085335",
+      "opening-hours": "10:30-20:30",
       "waiting-time": "20~40 min",
       "menu": [
          { "id":"product-1", "name":"招牌鍋貼*10","category": "鍋貼","price": 50 ,"image":"https://www.8way.com.tw/8WayApi/document/aba97afe-d70f-4613-ab90-f6e123742a1d.png","description":"將特選豬後腿肉的嚼勁揉進高麗菜的香甜口感，包入新鮮製作的餃皮再煎至金黃酥脆，成就八方雲集自豪的招牌鍋貼。" },
@@ -38,7 +40,8 @@
       "id": 3,
       "name": "九圓水餃 萬華寶興店",
       "location": "台北市萬華區寶興街133號",
-      "phone": "0223034109",
+      "phone": "02-23034109",
+      "opening-hours": "11:00-21:00",
       "waiting-time": "40~60 min",
       "menu": [
          { "id":"product-1", "name":"招牌鍋貼*10","category": "鍋貼","price": 50 ,"image":"https://www.8way.com.tw/8WayApi/document/aba97afe-d70f-4613-ab90-f6e123742a1d.png","description":"將特選豬後腿肉的嚼勁揉進高麗菜的香甜口感，包入新鮮製作的餃皮再煎至金黃酥脆，成就八方雲集自豪的招牌鍋貼。" },
@@ -55,7 +58,8 @@
       "id": 4,
       "name": "九圓水餃 板橋莊敬店",
       "location": "新北市板橋區莊敬路132號",
-      "phone": "0222565797",
+      "phone": "02-22565797",
+      "opening-hours": "11:00-21:00",
       "waiting-time": "<20 min",
       "menu": [
          { "id":"product-1", "name":"招牌鍋貼*10","category": "鍋貼","price": 50 ,"image":"https://www.8way.com.tw/8WayApi/document/aba97afe-d70f-4613-ab90-f6e123742a1d.png","description":"將特選豬後腿肉的嚼勁揉進高麗菜的香甜口感，包入新鮮製作的餃皮再煎至金黃酥脆，成就八方雲集自豪的招牌鍋貼。" },
@@ -68,11 +72,12 @@
          { "id":"product-8", "name":"酸辣湯","category": "湯品","price": 35 ,"image":"hhttps://www.8way.com.tw/8WayApi/document/9e0364c0-dfc5-45c6-ada6-3693d233055c.jpg","description":"有著豐富餡料的酸辣湯將各式蔬菜切絲，拌入豆腐與肉絲，讓酸氣與辣氣結合食材甜味，譜出令人垂涎的滋味。" }
       ]
     },
-            {
+    {
       "id": 5,
       "name": "九圓水餃 新莊和順店",
       "location": "新北市新莊區中和街10號",
-      "phone": "0289925898",
+      "phone": "02-89925898",
+      "opening-hours": "11:00-21:00",
       "waiting-time": "20~40 min",
       "menu": [
          { "id":"product-1", "name":"招牌鍋貼*10","category": "鍋貼","price": 50 ,"image":"https://www.8way.com.tw/8WayApi/document/aba97afe-d70f-4613-ab90-f6e123742a1d.png","description":"將特選豬後腿肉的嚼勁揉進高麗菜的香甜口感，包入新鮮製作的餃皮再煎至金黃酥脆，成就八方雲集自豪的招牌鍋貼。" },
@@ -89,7 +94,8 @@
       "id": 6,
       "name": "九圓水餃 基隆暖暖店",
       "location": "基隆市暖暖區東勢街4之10號",
-      "phone": "0224580582",
+      "phone": "02-24580582",
+      "opening-hours": "11:00-21:00",
       "waiting-time": "<20 min",
       "menu": [
          { "id":"product-1", "name":"招牌鍋貼*10","category": "鍋貼","price": 50 ,"image":"https://www.8way.com.tw/8WayApi/document/aba97afe-d70f-4613-ab90-f6e123742a1d.png","description":"將特選豬後腿肉的嚼勁揉進高麗菜的香甜口感，包入新鮮製作的餃皮再煎至金黃酥脆，成就八方雲集自豪的招牌鍋貼。" },
