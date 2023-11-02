@@ -52,7 +52,18 @@ header {
 
 .card {
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  /* 設定卡片的溢出處理方式為隱藏 */
 }
+
+.card a {
+  text-overflow: ellipsis;
+  /* 當按鈕文字溢出時，使用省略號表示省略部分 */
+  white-space: nowrap;
+  /* 確保文字在一行內，不換行 */
+  overflow: hidden;
+  /* 設定按鈕的溢出處理方式為隱藏 */
+  }
 
 .card-title {
   overflow: hidden;
