@@ -1,0 +1,106 @@
+{
+  "results": [
+    {
+      "id": 1,
+      "name": "九圓水餃 板橋仁化店",
+      "location": "新北市板橋區仁化街32號",
+      "phone": "0282595007",
+      "waiting-time": "<20 min",
+      "menu": [
+         { "id":"product-1", "name":"招牌鍋貼*10","category": "鍋貼","price": 50 ,"image":"https://www.8way.com.tw/8WayApi/document/aba97afe-d70f-4613-ab90-f6e123742a1d.png","description":"將特選豬後腿肉的嚼勁揉進高麗菜的香甜口感，包入新鮮製作的餃皮再煎至金黃酥脆，成就八方雲集自豪的招牌鍋貼。" },
+         { "id":"product-2", "name":"玉米鍋貼*10","category": "鍋貼","price": 60 ,"image":"https://www.8way.com.tw/8WayApi/document/8e172086-8276-43c2-a1f0-da947e7b3848.png","description":"精選粒粒飽滿的非基因改造玉米，讓自然甜味結合肉汁甘醇，化為金黃餃皮下一份特別的滋味！" },         
+         { "id":"product-3", "name":"韓式辣味鍋貼*10","category": "鍋貼","price": 55 ,"image":"https://www.8way.com.tw/8WayApi/document/c54dd0cb-68f1-44ea-b622-e7e434cdcc67.png","description":"艷紅的外皮下，包著令人大呼過癮的韓式辣味內餡，香辣後勁帶出每口豐富滋味，令人想不斷一顆接一顆。" },
+         { "id":"product-4", "name":"新蔬食鍋貼*10","category": "鍋貼","price": 55 ,"image":"https://www.8way.com.tw/8WayApi/document/0b02cbe6-ead5-4db2-8c84-3ec3d3aea222.png","description":"原料採用全蔬食製作絞肉與高麗菜精心調配而成的內餡，以特製餃皮溫柔包藏，再煎至金黃酥脆，一口咬下，在嘴裡綻放清爽好滋味。(經門店煎製後之熟成品為鍋邊素)" },
+         { "id":"product-5", "name":"韭菜水餃*10","category": "水餃","price": 50 ,"image":"https://www.8way.com.tw/8WayApi/document/69fdb291-f4a8-4667-952e-4f6821d4947a.png","description":"新鮮韭菜的清香，引出豬肉的自然甜美，再以Q彈餃皮捏製包覆，白裡透綠的顏色最引人食慾大開。" },
+         { "id":"product-6", "name":"鮮蝦水餃*10","category": "水餃","price": 80 ,"image":"https://www.8way.com.tw/8WayApi/document/318a7a32-2c27-413d-b6a2-80f43dedbe83.png","description":"選用整隻蝦仁包製入餡，讓海的鮮味與豬肉的甜美在舌尖碰撞，能同時享受海陸雙重滋味的滿足口福。" },
+         { "id":"product-7", "name":"玉米濃湯","category": "湯品","price": 35 ,"image":"https://www.8way.com.tw/8WayApi/document/6199cc3c-76c9-4dda-9d7c-2d47221d169d.png","description":"將蘑菇，胡蘿蔔切丁，拌入玉米醬中細細熬製而成，綿密的甜味是大人小孩都難以抗拒的湯品。" },
+         { "id":"product-8", "name":"酸辣湯","category": "湯品","price": 35 ,"image":"hhttps://www.8way.com.tw/8WayApi/document/9e0364c0-dfc5-45c6-ada6-3693d233055c.jpg","description":"有著豐富餡料的酸辣湯將各式蔬菜切絲，拌入豆腐與肉絲，讓酸氣與辣氣結合食材甜味，譜出令人垂涎的滋味。" }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "九圓水餃 萬華環南店",
+      "location": "台北市萬華區環河南路二段202號",
+      "phone": "0223085335",
+      "waiting-time": "20~40 min",
+      "menu": [
+         { "id":"product-1", "name":"招牌鍋貼*10","category": "鍋貼","price": 50 ,"image":"https://www.8way.com.tw/8WayApi/document/aba97afe-d70f-4613-ab90-f6e123742a1d.png","description":"將特選豬後腿肉的嚼勁揉進高麗菜的香甜口感，包入新鮮製作的餃皮再煎至金黃酥脆，成就八方雲集自豪的招牌鍋貼。" },
+         { "id":"product-2", "name":"玉米鍋貼*10","category": "鍋貼","price": 60 ,"image":"https://www.8way.com.tw/8WayApi/document/8e172086-8276-43c2-a1f0-da947e7b3848.png","description":"精選粒粒飽滿的非基因改造玉米，讓自然甜味結合肉汁甘醇，化為金黃餃皮下一份特別的滋味！" },         
+         { "id":"product-3", "name":"韓式辣味鍋貼*10","category": "鍋貼","price": 55 ,"image":"https://www.8way.com.tw/8WayApi/document/c54dd0cb-68f1-44ea-b622-e7e434cdcc67.png","description":"艷紅的外皮下，包著令人大呼過癮的韓式辣味內餡，香辣後勁帶出每口豐富滋味，令人想不斷一顆接一顆。" },
+         { "id":"product-4", "name":"新蔬食鍋貼*10","category": "鍋貼","price": 55 ,"image":"https://www.8way.com.tw/8WayApi/document/0b02cbe6-ead5-4db2-8c84-3ec3d3aea222.png","description":"原料採用全蔬食製作絞肉與高麗菜精心調配而成的內餡，以特製餃皮溫柔包藏，再煎至金黃酥脆，一口咬下，在嘴裡綻放清爽好滋味。(經門店煎製後之熟成品為鍋邊素)" },
+         { "id":"product-5", "name":"韭菜水餃*10","category": "水餃","price": 50 ,"image":"https://www.8way.com.tw/8WayApi/document/69fdb291-f4a8-4667-952e-4f6821d4947a.png","description":"新鮮韭菜的清香，引出豬肉的自然甜美，再以Q彈餃皮捏製包覆，白裡透綠的顏色最引人食慾大開。" },
+         { "id":"product-6", "name":"鮮蝦水餃*10","category": "水餃","price": 80 ,"image":"https://www.8way.com.tw/8WayApi/document/318a7a32-2c27-413d-b6a2-80f43dedbe83.png","description":"選用整隻蝦仁包製入餡，讓海的鮮味與豬肉的甜美在舌尖碰撞，能同時享受海陸雙重滋味的滿足口福。" },
+         { "id":"product-7", "name":"玉米濃湯","category": "湯品","price": 35 ,"image":"https://www.8way.com.tw/8WayApi/document/6199cc3c-76c9-4dda-9d7c-2d47221d169d.png","description":"將蘑菇，胡蘿蔔切丁，拌入玉米醬中細細熬製而成，綿密的甜味是大人小孩都難以抗拒的湯品。" },
+         { "id":"product-8", "name":"酸辣湯","category": "湯品","price": 35 ,"image":"hhttps://www.8way.com.tw/8WayApi/document/9e0364c0-dfc5-45c6-ada6-3693d233055c.jpg","description":"有著豐富餡料的酸辣湯將各式蔬菜切絲，拌入豆腐與肉絲，讓酸氣與辣氣結合食材甜味，譜出令人垂涎的滋味。" }
+      ]
+    },
+        {
+      "id": 3,
+      "name": "九圓水餃 萬華寶興店",
+      "location": "台北市萬華區寶興街133號",
+      "phone": "0223034109",
+      "waiting-time": "40~60 min",
+      "menu": [
+         { "id":"product-1", "name":"招牌鍋貼*10","category": "鍋貼","price": 50 ,"image":"https://www.8way.com.tw/8WayApi/document/aba97afe-d70f-4613-ab90-f6e123742a1d.png","description":"將特選豬後腿肉的嚼勁揉進高麗菜的香甜口感，包入新鮮製作的餃皮再煎至金黃酥脆，成就八方雲集自豪的招牌鍋貼。" },
+         { "id":"product-2", "name":"玉米鍋貼*10","category": "鍋貼","price": 60 ,"image":"https://www.8way.com.tw/8WayApi/document/8e172086-8276-43c2-a1f0-da947e7b3848.png","description":"精選粒粒飽滿的非基因改造玉米，讓自然甜味結合肉汁甘醇，化為金黃餃皮下一份特別的滋味！" },         
+         { "id":"product-3", "name":"韓式辣味鍋貼*10","category": "鍋貼","price": 55 ,"image":"https://www.8way.com.tw/8WayApi/document/c54dd0cb-68f1-44ea-b622-e7e434cdcc67.png","description":"艷紅的外皮下，包著令人大呼過癮的韓式辣味內餡，香辣後勁帶出每口豐富滋味，令人想不斷一顆接一顆。" },
+         { "id":"product-4", "name":"新蔬食鍋貼*10","category": "鍋貼","price": 55 ,"image":"https://www.8way.com.tw/8WayApi/document/0b02cbe6-ead5-4db2-8c84-3ec3d3aea222.png","description":"原料採用全蔬食製作絞肉與高麗菜精心調配而成的內餡，以特製餃皮溫柔包藏，再煎至金黃酥脆，一口咬下，在嘴裡綻放清爽好滋味。(經門店煎製後之熟成品為鍋邊素)" },
+         { "id":"product-5", "name":"韭菜水餃*10","category": "水餃","price": 50 ,"image":"https://www.8way.com.tw/8WayApi/document/69fdb291-f4a8-4667-952e-4f6821d4947a.png","description":"新鮮韭菜的清香，引出豬肉的自然甜美，再以Q彈餃皮捏製包覆，白裡透綠的顏色最引人食慾大開。" },
+         { "id":"product-6", "name":"鮮蝦水餃*10","category": "水餃","price": 80 ,"image":"https://www.8way.com.tw/8WayApi/document/318a7a32-2c27-413d-b6a2-80f43dedbe83.png","description":"選用整隻蝦仁包製入餡，讓海的鮮味與豬肉的甜美在舌尖碰撞，能同時享受海陸雙重滋味的滿足口福。" },
+         { "id":"product-7", "name":"玉米濃湯","category": "湯品","price": 35 ,"image":"https://www.8way.com.tw/8WayApi/document/6199cc3c-76c9-4dda-9d7c-2d47221d169d.png","description":"將蘑菇，胡蘿蔔切丁，拌入玉米醬中細細熬製而成，綿密的甜味是大人小孩都難以抗拒的湯品。" },
+         { "id":"product-8", "name":"酸辣湯","category": "湯品","price": 35 ,"image":"hhttps://www.8way.com.tw/8WayApi/document/9e0364c0-dfc5-45c6-ada6-3693d233055c.jpg","description":"有著豐富餡料的酸辣湯將各式蔬菜切絲，拌入豆腐與肉絲，讓酸氣與辣氣結合食材甜味，譜出令人垂涎的滋味。" }
+      ]
+    },
+        {
+      "id": 4,
+      "name": "九圓水餃 板橋莊敬店",
+      "location": "新北市板橋區莊敬路132號",
+      "phone": "0222565797",
+      "waiting-time": "<20 min",
+      "menu": [
+         { "id":"product-1", "name":"招牌鍋貼*10","category": "鍋貼","price": 50 ,"image":"https://www.8way.com.tw/8WayApi/document/aba97afe-d70f-4613-ab90-f6e123742a1d.png","description":"將特選豬後腿肉的嚼勁揉進高麗菜的香甜口感，包入新鮮製作的餃皮再煎至金黃酥脆，成就八方雲集自豪的招牌鍋貼。" },
+         { "id":"product-2", "name":"玉米鍋貼*10","category": "鍋貼","price": 60 ,"image":"https://www.8way.com.tw/8WayApi/document/8e172086-8276-43c2-a1f0-da947e7b3848.png","description":"精選粒粒飽滿的非基因改造玉米，讓自然甜味結合肉汁甘醇，化為金黃餃皮下一份特別的滋味！" },         
+         { "id":"product-3", "name":"韓式辣味鍋貼*10","category": "鍋貼","price": 55 ,"image":"https://www.8way.com.tw/8WayApi/document/c54dd0cb-68f1-44ea-b622-e7e434cdcc67.png","description":"艷紅的外皮下，包著令人大呼過癮的韓式辣味內餡，香辣後勁帶出每口豐富滋味，令人想不斷一顆接一顆。" },
+         { "id":"product-4", "name":"新蔬食鍋貼*10","category": "鍋貼","price": 55 ,"image":"https://www.8way.com.tw/8WayApi/document/0b02cbe6-ead5-4db2-8c84-3ec3d3aea222.png","description":"原料採用全蔬食製作絞肉與高麗菜精心調配而成的內餡，以特製餃皮溫柔包藏，再煎至金黃酥脆，一口咬下，在嘴裡綻放清爽好滋味。(經門店煎製後之熟成品為鍋邊素)" },
+         { "id":"product-5", "name":"韭菜水餃*10","category": "水餃","price": 50 ,"image":"https://www.8way.com.tw/8WayApi/document/69fdb291-f4a8-4667-952e-4f6821d4947a.png","description":"新鮮韭菜的清香，引出豬肉的自然甜美，再以Q彈餃皮捏製包覆，白裡透綠的顏色最引人食慾大開。" },
+         { "id":"product-6", "name":"鮮蝦水餃*10","category": "水餃","price": 80 ,"image":"https://www.8way.com.tw/8WayApi/document/318a7a32-2c27-413d-b6a2-80f43dedbe83.png","description":"選用整隻蝦仁包製入餡，讓海的鮮味與豬肉的甜美在舌尖碰撞，能同時享受海陸雙重滋味的滿足口福。" },
+         { "id":"product-7", "name":"玉米濃湯","category": "湯品","price": 35 ,"image":"https://www.8way.com.tw/8WayApi/document/6199cc3c-76c9-4dda-9d7c-2d47221d169d.png","description":"將蘑菇，胡蘿蔔切丁，拌入玉米醬中細細熬製而成，綿密的甜味是大人小孩都難以抗拒的湯品。" },
+         { "id":"product-8", "name":"酸辣湯","category": "湯品","price": 35 ,"image":"hhttps://www.8way.com.tw/8WayApi/document/9e0364c0-dfc5-45c6-ada6-3693d233055c.jpg","description":"有著豐富餡料的酸辣湯將各式蔬菜切絲，拌入豆腐與肉絲，讓酸氣與辣氣結合食材甜味，譜出令人垂涎的滋味。" }
+      ]
+    },
+            {
+      "id": 5,
+      "name": "九圓水餃 新莊和順店",
+      "location": "新北市新莊區中和街10號",
+      "phone": "0289925898",
+      "waiting-time": "20~40 min",
+      "menu": [
+         { "id":"product-1", "name":"招牌鍋貼*10","category": "鍋貼","price": 50 ,"image":"https://www.8way.com.tw/8WayApi/document/aba97afe-d70f-4613-ab90-f6e123742a1d.png","description":"將特選豬後腿肉的嚼勁揉進高麗菜的香甜口感，包入新鮮製作的餃皮再煎至金黃酥脆，成就八方雲集自豪的招牌鍋貼。" },
+         { "id":"product-2", "name":"玉米鍋貼*10","category": "鍋貼","price": 60 ,"image":"https://www.8way.com.tw/8WayApi/document/8e172086-8276-43c2-a1f0-da947e7b3848.png","description":"精選粒粒飽滿的非基因改造玉米，讓自然甜味結合肉汁甘醇，化為金黃餃皮下一份特別的滋味！" },         
+         { "id":"product-3", "name":"韓式辣味鍋貼*10","category": "鍋貼","price": 55 ,"image":"https://www.8way.com.tw/8WayApi/document/c54dd0cb-68f1-44ea-b622-e7e434cdcc67.png","description":"艷紅的外皮下，包著令人大呼過癮的韓式辣味內餡，香辣後勁帶出每口豐富滋味，令人想不斷一顆接一顆。" },
+         { "id":"product-4", "name":"新蔬食鍋貼*10","category": "鍋貼","price": 55 ,"image":"https://www.8way.com.tw/8WayApi/document/0b02cbe6-ead5-4db2-8c84-3ec3d3aea222.png","description":"原料採用全蔬食製作絞肉與高麗菜精心調配而成的內餡，以特製餃皮溫柔包藏，再煎至金黃酥脆，一口咬下，在嘴裡綻放清爽好滋味。(經門店煎製後之熟成品為鍋邊素)" },
+         { "id":"product-5", "name":"韭菜水餃*10","category": "水餃","price": 50 ,"image":"https://www.8way.com.tw/8WayApi/document/69fdb291-f4a8-4667-952e-4f6821d4947a.png","description":"新鮮韭菜的清香，引出豬肉的自然甜美，再以Q彈餃皮捏製包覆，白裡透綠的顏色最引人食慾大開。" },
+         { "id":"product-6", "name":"鮮蝦水餃*10","category": "水餃","price": 80 ,"image":"https://www.8way.com.tw/8WayApi/document/318a7a32-2c27-413d-b6a2-80f43dedbe83.png","description":"選用整隻蝦仁包製入餡，讓海的鮮味與豬肉的甜美在舌尖碰撞，能同時享受海陸雙重滋味的滿足口福。" },
+         { "id":"product-7", "name":"玉米濃湯","category": "湯品","price": 35 ,"image":"https://www.8way.com.tw/8WayApi/document/6199cc3c-76c9-4dda-9d7c-2d47221d169d.png","description":"將蘑菇，胡蘿蔔切丁，拌入玉米醬中細細熬製而成，綿密的甜味是大人小孩都難以抗拒的湯品。" },
+         { "id":"product-8", "name":"酸辣湯","category": "湯品","price": 35 ,"image":"hhttps://www.8way.com.tw/8WayApi/document/9e0364c0-dfc5-45c6-ada6-3693d233055c.jpg","description":"有著豐富餡料的酸辣湯將各式蔬菜切絲，拌入豆腐與肉絲，讓酸氣與辣氣結合食材甜味，譜出令人垂涎的滋味。" }
+      ]
+    },
+             {
+      "id": 6,
+      "name": "九圓水餃 基隆暖暖店",
+      "location": "基隆市暖暖區東勢街4之10號",
+      "phone": "0224580582",
+      "waiting-time": "<20 min",
+      "menu": [
+         { "id":"product-1", "name":"招牌鍋貼*10","category": "鍋貼","price": 50 ,"image":"https://www.8way.com.tw/8WayApi/document/aba97afe-d70f-4613-ab90-f6e123742a1d.png","description":"將特選豬後腿肉的嚼勁揉進高麗菜的香甜口感，包入新鮮製作的餃皮再煎至金黃酥脆，成就八方雲集自豪的招牌鍋貼。" },
+         { "id":"product-2", "name":"玉米鍋貼*10","category": "鍋貼","price": 60 ,"image":"https://www.8way.com.tw/8WayApi/document/8e172086-8276-43c2-a1f0-da947e7b3848.png","description":"精選粒粒飽滿的非基因改造玉米，讓自然甜味結合肉汁甘醇，化為金黃餃皮下一份特別的滋味！" },         
+         { "id":"product-3", "name":"韓式辣味鍋貼*10","category": "鍋貼","price": 55 ,"image":"https://www.8way.com.tw/8WayApi/document/c54dd0cb-68f1-44ea-b622-e7e434cdcc67.png","description":"艷紅的外皮下，包著令人大呼過癮的韓式辣味內餡，香辣後勁帶出每口豐富滋味，令人想不斷一顆接一顆。" },
+         { "id":"product-4", "name":"新蔬食鍋貼*10","category": "鍋貼","price": 55 ,"image":"https://www.8way.com.tw/8WayApi/document/0b02cbe6-ead5-4db2-8c84-3ec3d3aea222.png","description":"原料採用全蔬食製作絞肉與高麗菜精心調配而成的內餡，以特製餃皮溫柔包藏，再煎至金黃酥脆，一口咬下，在嘴裡綻放清爽好滋味。(經門店煎製後之熟成品為鍋邊素)" },
+         { "id":"product-5", "name":"韭菜水餃*10","category": "水餃","price": 50 ,"image":"https://www.8way.com.tw/8WayApi/document/69fdb291-f4a8-4667-952e-4f6821d4947a.png","description":"新鮮韭菜的清香，引出豬肉的自然甜美，再以Q彈餃皮捏製包覆，白裡透綠的顏色最引人食慾大開。" },
+         { "id":"product-6", "name":"鮮蝦水餃*10","category": "水餃","price": 80 ,"image":"https://www.8way.com.tw/8WayApi/document/318a7a32-2c27-413d-b6a2-80f43dedbe83.png","description":"選用整隻蝦仁包製入餡，讓海的鮮味與豬肉的甜美在舌尖碰撞，能同時享受海陸雙重滋味的滿足口福。" },
+         { "id":"product-7", "name":"玉米濃湯","category": "湯品","price": 35 ,"image":"https://www.8way.com.tw/8WayApi/document/6199cc3c-76c9-4dda-9d7c-2d47221d169d.png","description":"將蘑菇，胡蘿蔔切丁，拌入玉米醬中細細熬製而成，綿密的甜味是大人小孩都難以抗拒的湯品。" },
+         { "id":"product-8", "name":"酸辣湯","category": "湯品","price": 35 ,"image":"hhttps://www.8way.com.tw/8WayApi/document/9e0364c0-dfc5-45c6-ada6-3693d233055c.jpg","description":"有著豐富餡料的酸辣湯將各式蔬菜切絲，拌入豆腐與肉絲，讓酸氣與辣氣結合食材甜味，譜出令人垂涎的滋味。" }
+      ]
+    }                
+  ]
+}
