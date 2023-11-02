@@ -1,0 +1,95 @@
+<header>
+  <!-- navigation -->
+  <nav class="navbar navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="/">
+        <img src="https://assets-lighthouse.s3.amazonaws.com/uploads/image/file/6227/restaurant-list-logo.png" width="30"
+          height="30" class="d-inline-block align-top" alt="九圓水餃集團">
+        九圓水餃_全台門市總覽
+      </a>
+      <a class="navbar-brand" href="/user-login">
+        <i class="fa-solid fa-user"></i>
+        會員中心
+      </a>
+  </nav>
+  <div class="banner"></div>
+</header>
+<h1 class="mb-1 restaurant-show-title">{{restaurant.name}}_線上點餐頁</h1>
+<div class="container">
+  <div class="row">
+    <div class="col-12 col-md-10 mx-auto">
+      <p class="mb-1">
+        <span class="text-secondary">
+          <i class="fas fa-map-marker-alt pr-2"></i>
+          地址：
+        </span>
+        <a href="https://www.google.com.tw/maps" class="text-secondary" target="_blank">
+        {{restaurant.location}}
+
+        <i class="fas fa-location-arrow pr-2 fa-xs"></i>
+        </a>
+      </p>
+      <p class="mb-1">
+        <span class="text-secondary">
+          <i class="fa-solid fa-store"></i>
+          營業時間：
+        </span>
+        {{restaurant.opening-hours}}
+      </p>
+      <p class="mb-1">
+        <span class="text-secondary">
+          <i class="fa-solid fa-clock"></i>
+          預估等待時間:
+        </span>
+        {{restaurant.waiting-time}}
+      </p>
+      <p class="mb-1">
+
+        <span class="text-secondary">
+          <i class="fas fa-mobile-alt pr-2"></i>
+          電話：
+        </span>
+        <a href="tel:+886-{{restaurant.phone}}">
+        {{restaurant.phone}}
+        </a>
+      </p>
+
+      <p class="mb-5">
+        {{restaurant.description}}
+      </p>
+  <nav class="navbar navbar-light bg-light mb-2">
+    <div class="container">
+      <a class="navbar-brand" href="#category1"> <!-- 類別導航功能待撰寫 -->
+        鍋貼
+      </a>
+      <a class="navbar-brand" href="#category1">
+        水餃
+      </a>
+      <a class="navbar-brand" href="#category1">
+        湯品
+      </a>
+  </nav>
+<!-- Menu list -->
+<div class="row justify-content-start">
+  <a name="category1"></a>
+  {{#each items as |item|}}
+  <div class="card col-lg-4 col-md-6 col-12 my-3 custom-card">
+    <div class="d-flex justify-content-center"> <!-- 水平置中 -->
+      <img src="{{item.image}}" class="card-img-top rounded-circle w-75 p-3" alt="{{item.name}}">
+    </div>
+    <div class="card-body bg-white">
+      <h6 class="card-title">品名 : {{item.name}}</h6>
+      <p class="card-text">
+        價格 : ${{item.price}}<br>
+        說明 : {{description}}
+      </p>
+      <a href="#" class="btn btn-primary">加入購物車</a>
+    </div>
+  </div>
+  {{/each}}
+</div>
+</div>
+
+
+    </div>
+  </div>

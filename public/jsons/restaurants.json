@@ -15,7 +15,7 @@
          { "id":"product-5", "name":"韭菜水餃*10","category": "水餃","price": 50 ,"image":"https://www.8way.com.tw/8WayApi/document/69fdb291-f4a8-4667-952e-4f6821d4947a.png","description":"新鮮韭菜的清香，引出豬肉的自然甜美，再以Q彈餃皮捏製包覆，白裡透綠的顏色最引人食慾大開。" },
          { "id":"product-6", "name":"鮮蝦水餃*10","category": "水餃","price": 80 ,"image":"https://www.8way.com.tw/8WayApi/document/318a7a32-2c27-413d-b6a2-80f43dedbe83.png","description":"選用整隻蝦仁包製入餡，讓海的鮮味與豬肉的甜美在舌尖碰撞，能同時享受海陸雙重滋味的滿足口福。" },
          { "id":"product-7", "name":"玉米濃湯","category": "湯品","price": 35 ,"image":"https://www.8way.com.tw/8WayApi/document/6199cc3c-76c9-4dda-9d7c-2d47221d169d.png","description":"將蘑菇，胡蘿蔔切丁，拌入玉米醬中細細熬製而成，綿密的甜味是大人小孩都難以抗拒的湯品。" },
-         { "id":"product-8", "name":"酸辣湯","category": "湯品","price": 35 ,"image":"hhttps://www.8way.com.tw/8WayApi/document/9e0364c0-dfc5-45c6-ada6-3693d233055c.jpg","description":"有著豐富餡料的酸辣湯將各式蔬菜切絲，拌入豆腐與肉絲，讓酸氣與辣氣結合食材甜味，譜出令人垂涎的滋味。" }
+         { "id":"product-8", "name":"酸辣湯","category": "湯品","price": 35 ,"image":"https://www.8way.com.tw/8WayApi/document/9e0364c0-dfc5-45c6-ada6-3693d233055c.jpg","description":"有著豐富餡料的酸辣湯將各式蔬菜切絲，拌入豆腐與肉絲，讓酸氣與辣氣結合食材甜味，譜出令人垂涎的滋味。" }
       ]
     },
     {
@@ -33,7 +33,7 @@
          { "id":"product-5", "name":"韭菜水餃*10","category": "水餃","price": 50 ,"image":"https://www.8way.com.tw/8WayApi/document/69fdb291-f4a8-4667-952e-4f6821d4947a.png","description":"新鮮韭菜的清香，引出豬肉的自然甜美，再以Q彈餃皮捏製包覆，白裡透綠的顏色最引人食慾大開。" },
          { "id":"product-6", "name":"鮮蝦水餃*10","category": "水餃","price": 80 ,"image":"https://www.8way.com.tw/8WayApi/document/318a7a32-2c27-413d-b6a2-80f43dedbe83.png","description":"選用整隻蝦仁包製入餡，讓海的鮮味與豬肉的甜美在舌尖碰撞，能同時享受海陸雙重滋味的滿足口福。" },
          { "id":"product-7", "name":"玉米濃湯","category": "湯品","price": 35 ,"image":"https://www.8way.com.tw/8WayApi/document/6199cc3c-76c9-4dda-9d7c-2d47221d169d.png","description":"將蘑菇，胡蘿蔔切丁，拌入玉米醬中細細熬製而成，綿密的甜味是大人小孩都難以抗拒的湯品。" },
-         { "id":"product-8", "name":"酸辣湯","category": "湯品","price": 35 ,"image":"hhttps://www.8way.com.tw/8WayApi/document/9e0364c0-dfc5-45c6-ada6-3693d233055c.jpg","description":"有著豐富餡料的酸辣湯將各式蔬菜切絲，拌入豆腐與肉絲，讓酸氣與辣氣結合食材甜味，譜出令人垂涎的滋味。" }
+         { "id":"product-8", "name":"酸辣湯","category": "湯品","price": 35 ,"image":"https://www.8way.com.tw/8WayApi/document/9e0364c0-dfc5-45c6-ada6-3693d233055c.jpg","description":"有著豐富餡料的酸辣湯將各式蔬菜切絲，拌入豆腐與肉絲，讓酸氣與辣氣結合食材甜味，譜出令人垂涎的滋味。" }
       ]
     },
         {
@@ -51,7 +51,7 @@
          { "id":"product-5", "name":"韭菜水餃*10","category": "水餃","price": 50 ,"image":"https://www.8way.com.tw/8WayApi/document/69fdb291-f4a8-4667-952e-4f6821d4947a.png","description":"新鮮韭菜的清香，引出豬肉的自然甜美，再以Q彈餃皮捏製包覆，白裡透綠的顏色最引人食慾大開。" },
          { "id":"product-6", "name":"鮮蝦水餃*10","category": "水餃","price": 80 ,"image":"https://www.8way.com.tw/8WayApi/document/318a7a32-2c27-413d-b6a2-80f43dedbe83.png","description":"選用整隻蝦仁包製入餡，讓海的鮮味與豬肉的甜美在舌尖碰撞，能同時享受海陸雙重滋味的滿足口福。" },
          { "id":"product-7", "name":"玉米濃湯","category": "湯品","price": 35 ,"image":"https://www.8way.com.tw/8WayApi/document/6199cc3c-76c9-4dda-9d7c-2d47221d169d.png","description":"將蘑菇，胡蘿蔔切丁，拌入玉米醬中細細熬製而成，綿密的甜味是大人小孩都難以抗拒的湯品。" },
-         { "id":"product-8", "name":"酸辣湯","category": "湯品","price": 35 ,"image":"hhttps://www.8way.com.tw/8WayApi/document/9e0364c0-dfc5-45c6-ada6-3693d233055c.jpg","description":"有著豐富餡料的酸辣湯將各式蔬菜切絲，拌入豆腐與肉絲，讓酸氣與辣氣結合食材甜味，譜出令人垂涎的滋味。" }
+         { "id":"product-8", "name":"酸辣湯","category": "湯品","price": 35 ,"image":"https://www.8way.com.tw/8WayApi/document/9e0364c0-dfc5-45c6-ada6-3693d233055c.jpg","description":"有著豐富餡料的酸辣湯將各式蔬菜切絲，拌入豆腐與肉絲，讓酸氣與辣氣結合食材甜味，譜出令人垂涎的滋味。" }
       ]
     },
         {
@@ -69,7 +69,7 @@
          { "id":"product-5", "name":"韭菜水餃*10","category": "水餃","price": 50 ,"image":"https://www.8way.com.tw/8WayApi/document/69fdb291-f4a8-4667-952e-4f6821d4947a.png","description":"新鮮韭菜的清香，引出豬肉的自然甜美，再以Q彈餃皮捏製包覆，白裡透綠的顏色最引人食慾大開。" },
          { "id":"product-6", "name":"鮮蝦水餃*10","category": "水餃","price": 80 ,"image":"https://www.8way.com.tw/8WayApi/document/318a7a32-2c27-413d-b6a2-80f43dedbe83.png","description":"選用整隻蝦仁包製入餡，讓海的鮮味與豬肉的甜美在舌尖碰撞，能同時享受海陸雙重滋味的滿足口福。" },
          { "id":"product-7", "name":"玉米濃湯","category": "湯品","price": 35 ,"image":"https://www.8way.com.tw/8WayApi/document/6199cc3c-76c9-4dda-9d7c-2d47221d169d.png","description":"將蘑菇，胡蘿蔔切丁，拌入玉米醬中細細熬製而成，綿密的甜味是大人小孩都難以抗拒的湯品。" },
-         { "id":"product-8", "name":"酸辣湯","category": "湯品","price": 35 ,"image":"hhttps://www.8way.com.tw/8WayApi/document/9e0364c0-dfc5-45c6-ada6-3693d233055c.jpg","description":"有著豐富餡料的酸辣湯將各式蔬菜切絲，拌入豆腐與肉絲，讓酸氣與辣氣結合食材甜味，譜出令人垂涎的滋味。" }
+         { "id":"product-8", "name":"酸辣湯","category": "湯品","price": 35 ,"image":"https://www.8way.com.tw/8WayApi/document/9e0364c0-dfc5-45c6-ada6-3693d233055c.jpg","description":"有著豐富餡料的酸辣湯將各式蔬菜切絲，拌入豆腐與肉絲，讓酸氣與辣氣結合食材甜味，譜出令人垂涎的滋味。" }
       ]
     },
     {
@@ -87,7 +87,7 @@
          { "id":"product-5", "name":"韭菜水餃*10","category": "水餃","price": 50 ,"image":"https://www.8way.com.tw/8WayApi/document/69fdb291-f4a8-4667-952e-4f6821d4947a.png","description":"新鮮韭菜的清香，引出豬肉的自然甜美，再以Q彈餃皮捏製包覆，白裡透綠的顏色最引人食慾大開。" },
          { "id":"product-6", "name":"鮮蝦水餃*10","category": "水餃","price": 80 ,"image":"https://www.8way.com.tw/8WayApi/document/318a7a32-2c27-413d-b6a2-80f43dedbe83.png","description":"選用整隻蝦仁包製入餡，讓海的鮮味與豬肉的甜美在舌尖碰撞，能同時享受海陸雙重滋味的滿足口福。" },
          { "id":"product-7", "name":"玉米濃湯","category": "湯品","price": 35 ,"image":"https://www.8way.com.tw/8WayApi/document/6199cc3c-76c9-4dda-9d7c-2d47221d169d.png","description":"將蘑菇，胡蘿蔔切丁，拌入玉米醬中細細熬製而成，綿密的甜味是大人小孩都難以抗拒的湯品。" },
-         { "id":"product-8", "name":"酸辣湯","category": "湯品","price": 35 ,"image":"hhttps://www.8way.com.tw/8WayApi/document/9e0364c0-dfc5-45c6-ada6-3693d233055c.jpg","description":"有著豐富餡料的酸辣湯將各式蔬菜切絲，拌入豆腐與肉絲，讓酸氣與辣氣結合食材甜味，譜出令人垂涎的滋味。" }
+         { "id":"product-8", "name":"酸辣湯","category": "湯品","price": 35 ,"image":"https://www.8way.com.tw/8WayApi/document/9e0364c0-dfc5-45c6-ada6-3693d233055c.jpg","description":"有著豐富餡料的酸辣湯將各式蔬菜切絲，拌入豆腐與肉絲，讓酸氣與辣氣結合食材甜味，譜出令人垂涎的滋味。" }
       ]
     },
              {
@@ -105,7 +105,7 @@
          { "id":"product-5", "name":"韭菜水餃*10","category": "水餃","price": 50 ,"image":"https://www.8way.com.tw/8WayApi/document/69fdb291-f4a8-4667-952e-4f6821d4947a.png","description":"新鮮韭菜的清香，引出豬肉的自然甜美，再以Q彈餃皮捏製包覆，白裡透綠的顏色最引人食慾大開。" },
          { "id":"product-6", "name":"鮮蝦水餃*10","category": "水餃","price": 80 ,"image":"https://www.8way.com.tw/8WayApi/document/318a7a32-2c27-413d-b6a2-80f43dedbe83.png","description":"選用整隻蝦仁包製入餡，讓海的鮮味與豬肉的甜美在舌尖碰撞，能同時享受海陸雙重滋味的滿足口福。" },
          { "id":"product-7", "name":"玉米濃湯","category": "湯品","price": 35 ,"image":"https://www.8way.com.tw/8WayApi/document/6199cc3c-76c9-4dda-9d7c-2d47221d169d.png","description":"將蘑菇，胡蘿蔔切丁，拌入玉米醬中細細熬製而成，綿密的甜味是大人小孩都難以抗拒的湯品。" },
-         { "id":"product-8", "name":"酸辣湯","category": "湯品","price": 35 ,"image":"hhttps://www.8way.com.tw/8WayApi/document/9e0364c0-dfc5-45c6-ada6-3693d233055c.jpg","description":"有著豐富餡料的酸辣湯將各式蔬菜切絲，拌入豆腐與肉絲，讓酸氣與辣氣結合食材甜味，譜出令人垂涎的滋味。" }
+         { "id":"product-8", "name":"酸辣湯","category": "湯品","price": 35 ,"image":"https://www.8way.com.tw/8WayApi/document/9e0364c0-dfc5-45c6-ada6-3693d233055c.jpg","description":"有著豐富餡料的酸辣湯將各式蔬菜切絲，拌入豆腐與肉絲，讓酸氣與辣氣結合食材甜味，譜出令人垂涎的滋味。" }
       ]
     }                
   ]

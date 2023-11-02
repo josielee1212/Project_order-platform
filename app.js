@@ -3,6 +3,7 @@ const { engine } = require('express-handlebars')
 const app = express()
 const port = 3000
 const restaurants = require('./public/jsons/restaurants.json').results
+const menu = require('./public/jsons/restaurants.json').results.menu
 
 app.engine('.hbs', engine({extname: '.hbs'}))
 app.set('view engine', '.hbs')
@@ -19,12 +20,15 @@ app.get('/restaurants', (req, res) => {
 
 app.get('/restaurant/:id', (req, res) => {
   const id = req.params.id
-  res.send(`read restaurant: ${id}`)
+  const restaurant = restaurants.find((store) => store.id.toString() === id)
+  const items = restaurant.menu
+  res.render('order-page' ,{restaurant , items})
 })
 
 app.get('/map', (req, res) => {
   res.send(`地圖模式(TBC)`)
 })
+
 
 app.get('/user-login', (req, res) => {
   res.send(`會員登入/註冊頁面(TBC)`)

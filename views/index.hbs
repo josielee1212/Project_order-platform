@@ -42,17 +42,23 @@
 
 <!-- restaurant list -->
 <div class="container mt-5">
-  <div class="row justify-content-around">
+  <div class="row justify-content-start">
     {{#each restaurants as |restaurant|}}
     <div class="col-lg-4 col-md-6 col-12 mb-3">
             <div class="card p-2">
               <h5 class="card-title text-center text-danger fw-bold">{{restaurant.name}}</h5>
               <div class="card-body">
             <div class="restaurant-location mb-1">
-              <p class="card-text text-center">
-                地址: {{restaurant.location}} <i class="fa-solid fa-location-dot"></i> <br>
+              <p class="card-text text-center p-2 lh-lg">
+                <i class="fas fa-map-marker-alt pr-2"></i>
+                地址:
+                <a href="https://www.google.com.tw/maps" class="text-secondary" target="_blank">
+                  {{restaurant.location}}
+                  <i class="fas fa-location-arrow pr-2 fa-xs"></i></a><br>
+                  <i class="fa-solid fa-store"></i>
                 營業時間: {{opening-hours}}<br>
                 <span class="text-success  bg-light fw-bold">
+                  <i class="fa-solid fa-clock"></i>
                   預估等待時間: {{waiting-time}}
                 </span>
               </p>
