@@ -44,12 +44,12 @@
 <div class="container mt-5">
   <div class="row justify-content-start">
     {{#each restaurants as |restaurant|}}
-    <div class="col-lg-4 col-md-6 col-12 mb-3">
-            <div class="card p-2">
-              <h5 class="card-title text-center text-danger fw-bold">{{restaurant.name}}</h5>
-              <div class="card-body">
+<div class="col-lg-4 col-md-12 col-12 mb-3">
+  <div class="card p-2">
+    <h5 class="card-title text-center text-danger fw-bold fs-3">{{restaurant.name}}</h5>
+    <div class="card-body">
             <div class="restaurant-location mb-1">
-              <p class="card-text text-center p-2 lh-lg">
+              <p class="card-text text-center p-2 lh-lg fs-6">
                 <i class="fas fa-map-marker-alt pr-2"></i>
                 地址:
                 <a href="https://www.google.com.tw/maps" class="text-secondary" target="_blank">
@@ -63,20 +63,18 @@
                 </span>
               </p>
             </div>
-            <div class="restaurant-cta text-center d-flex flex-row justify-content-around align-items-center">
-              <span class="badge rounded-pill fw-light fs-6">
-                <a href="tel:+886-{{restaurant.phone}}" class="btn btn-primary" data-bs-toggle="tooltip" data-bs-placement="top" title="點擊撥打電話" style="white-space: nowrap;">
-                  <i class="fa-solid fa-phone"> </i> {{restaurant.phone}}
-                </a>
-              </span>
-              <span class="badge rounded-pill font-weight-normal"></span>
-              <a href="/restaurant/{{restaurant.id}}" class="btn btn-danger fs-6" data-bs-toggle="tooltip" data-bs-placement="top" title="分店線上點餐頁" style="white-space: nowrap;">
-                <i class="fa-solid fa-cart-shopping" ></i> 前往訂餐
-              </a>
-              </span>
-            </div>
-          </div>
-        </div>
+    <div class="restaurant-cta d-flex justify-content-evenly align-items-center">
+      <a href="tel:+886-{{restaurant.phone}}" class="btn btn-primary" data-bs-toggle="tooltip" data-bs-placement="top"
+        title="點擊撥打電話" style="white-space: nowrap;">
+        <i class="fa-solid fa-phone"></i> {{restaurant.phone}}
+      </a>
+      <a href="/restaurant/{{restaurant.id}}" class="btn btn-danger fs-6" data-bs-toggle="tooltip" data-bs-placement="top"
+        title="分店線上點餐頁" style="white-space: nowrap;">
+        <i class="fa-solid fa-cart-shopping"></i> 前往訂餐
+      </a>
+    </div>
+    </div>
+    </div>
         </div>
         {{/each}}
       </div>

@@ -65,11 +65,31 @@ header {
   /* 設定按鈕的溢出處理方式為隱藏 */
   }
 
+.custom-card .card-img-top {
+  object-fit: cover;
+  /* 保持圖像的纵橫比並裁切以適應容器 */
+  max-width: 100%;
+  /* 圖像的最大寬度為其容器的寬度 */
+  height: auto;
+  /* 自動計算圖像的高度，以保持其纵橫比 */
+}
+.custom-card .card-body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.custom-card .btn-primary {
+  margin-top: auto;
+  /* 讓按鈕垂直對齊底部 */
+}
+
 .card-title {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
+
 
 .restaurant-location {
   color: #666666;

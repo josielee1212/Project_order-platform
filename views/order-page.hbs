@@ -15,9 +15,9 @@
   <div class="banner"></div>
 </header>
 <h1 class="mb-1 restaurant-show-title">{{restaurant.name}}_線上點餐頁</h1>
-<div class="container">
+<div class="container px-0">
   <div class="row">
-    <div class="col-12 col-md-10 mx-auto">
+    <div class="col-12 col-md-12 mx-auto fs-4">
       <p class="mb-1">
         <span class="text-secondary">
           <i class="fas fa-map-marker-alt pr-2"></i>
@@ -73,17 +73,19 @@
 <div class="row justify-content-start">
   <a name="category1"></a>
   {{#each items as |item|}}
-  <div class="card col-lg-4 col-md-6 col-12 my-3 custom-card">
+  <div class="card col-lg-4 col-md-6 col-12 my-3 custom-card fs-3">
     <div class="d-flex justify-content-center"> <!-- 水平置中 -->
       <img src="{{item.image}}" class="card-img-top rounded-circle w-75 p-3" alt="{{item.name}}">
     </div>
     <div class="card-body bg-white">
-      <h6 class="card-title">品名 : {{item.name}}</h6>
+      <h6 class="card-title fs-3">品名 : {{item.name}}</h6>
       <p class="card-text">
         價格 : ${{item.price}}<br>
         說明 : {{description}}
       </p>
-      <a href="/restaurant/{{../id}}/cart" class="btn btn-primary">加入購物車</a>
+    <div class="mt-auto"> <!-- 將加入購物車按鈕包裹在此 div 中 -->
+      <a href="/restaurant/1/cart" class="btn btn-primary">加入購物車</a>
+      </div>
     </div>
   </div>
   {{/each}}
