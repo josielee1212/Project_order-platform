@@ -1,3 +1,4 @@
+const path = require('path');
 const express = require('express')
 const { engine } = require('express-handlebars')
 const app = express()
@@ -6,8 +7,9 @@ const restaurants = require('./public/jsons/restaurants.json').results
 
 app.engine('.hbs', engine({ extname: '.hbs' }))
 app.set('view engine', '.hbs')
-app.set('views', './views')
-app.use(express.static('public'))
+app.set('views', path.join(__dirname, 'views'))
+app.use(express.static(path.join(__dirname, 'public')));
+
 
 app.get('/', (req, res) => {
   res.redirect('/restaurants')
@@ -30,7 +32,7 @@ app.get('/restaurant/:id', (req, res) => {
   const id = req.params.id
   const restaurant = restaurants.find((store) => store.id.toString() === id)
   const items = restaurant.menu
-  res.render('order-page', { restaurant, items })
+  res.render('order-page', { restaurant, items, id})
 })
 
 app.get('/map', (req, res) => {
@@ -43,9 +45,10 @@ app.get('/user-login', (req, res) => {
 
 app.get('/restaurant/:id/cart', (req, res) => {
   const id = req.params.id
-  res.send(`open cart in restaurant: ${id}`)
+  res.send(`open cart in restaurant: ${id}，購物車頁面TBC`)
 })
 
-app.listen(port, () => {
-  console.log(`express server is running on http://localhost:${port}`)
-})
+module.exports = app;
+// app.listen(3001, () => {
+//   console.log(`express server is running on http://localhost:3001`)
+// })

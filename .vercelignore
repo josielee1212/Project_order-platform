@@ -1,0 +1,10 @@
+node_modules/
+.git
+*.log
+*.lock
+.cache
+.next
+.nuxt
+dist
+env
+.vscode

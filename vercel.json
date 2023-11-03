@@ -1,0 +1,11 @@
+{
+  "name": "my-express-app",
+  "version": 2,
+  "builds": [
+    { "src": "app.js", "use": "@vercel/node" }
+  ],
+  "rewrites": [
+    { "source": "/api/(.*)", "destination": "/app.js" },
+    { "source": "/(.*)", "destination": "/app.js" }
+  ]
+}
