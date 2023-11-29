@@ -36,7 +36,7 @@ app.get('/restaurant/:id', (req, res) => {
 })
 
 app.get('/map', (req, res) => {
-  res.send('地圖模式(TBC)')
+  res.render('map-page',{ restaurants: restaurants})
 })
 
 app.get('/user-login', (req, res) => {

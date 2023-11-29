@@ -1,0 +1,41 @@
+<header>
+  <!-- navigation -->
+  <nav class="navbar navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="/">
+        <img src="https://assets-lighthouse.s3.amazonaws.com/uploads/image/file/6227/restaurant-list-logo.png"
+          width="30" height="30" class="d-inline-block align-top" alt="九圓水餃集團">
+        九圓水餃_全台門市總覽
+      </a>
+      <a class="navbar-brand" href="/map">
+        <i class="fa-solid fa-map"></i>
+        地圖查找
+      </a>
+      <a class="navbar-brand" href="/user-login">
+        <i class="fa-solid fa-user"></i>
+        會員中心
+      </a>
+
+    </div>
+  </nav>
+  <div class="banner"></div>
+  <script src="/javascripts/map.js"></script>
+  
+  <div id="map-app" class="container">
+    <div class="row">
+      <div class="col">
+        <div id="map" class="embed-responsive embed-responsive-16by9"></div>
+      </div>
+    </div>
+  </div>
+      <script>(g => { var h, a, k, p = "The Google Maps JavaScript API", c = "google", l = "importLibrary", q = "__ib__", m = document, b = window; b = b[c] || (b[c] = {}); var d = b.maps || (b.maps = {}), r = new Set, e = new URLSearchParams, u = () => h || (h = new Promise(async (f, n) => { await (a = m.createElement("script")); e.set("libraries", [...r] + ""); for (k in g) e.set(k.replace(/[A-Z]/g, t => "_" + t[0].toLowerCase()), g[k]); e.set("callback", c + ".maps." + q); a.src = `https://maps.${c}apis.com/maps/api/js?` + e; d[q] = f; a.onerror = () => h = n(Error(p + " could not load.")); a.nonce = m.querySelector("script[nonce]")?.nonce || ""; m.head.append(a) })); d[l] ? console.warn(p + " only loads once. Ignoring:", g) : d[l] = (f, ...n) => r.add(f) && u().then(() => d[l](f, ...n)) })
+          ({ key: "AIzaSyCiCc-W6V94JBlIOijQMFGgbsMJ88zg4QM", v: "beta" });</script>
+  <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCiCc-W6V94JBlIOijQMFGgbsMJ88zg4QM&callback=initMap"></script>
+      <script>
+            window.onerror = function (message, source, lineno, colno, error) {
+              console.error("Error loading Google Maps API:", message, source, lineno, colno, error);
+            };
+          </script>
+
+</header>
