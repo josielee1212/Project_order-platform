@@ -108,9 +108,4 @@ window.initMap = async function () {
     window.onload = function () {
         initMap();
     };
-
-    window.addEventListener('resize', () => {
-        // 重新設置地圖大小
-        map.setDiv(document.getElementById('map'));
-    });
 };
